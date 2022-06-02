@@ -1,5 +1,5 @@
 <h1 text-align:"center">REST API NODE JS </h1>
-
+<img src="./node-js-api.png" />
 ## O que é Express e Node ?
 <p>Node (ou formalmente Node.js) é um ambiente em tempo de execução open-source (código aberto) e multiplataforma que permite aos desenvolvedores criarem todo tipo de aplicativos e ferramentas do lado servidor (backend) em JavaScript.</p> 
 <p> Node é usado fora do contexto de um navegador (ou seja executado diretamente no computador ou no servidor). Como tal, o ambiente omite APIs JavaScript específicas do navegador e adiciona suporte para APIs de sistema operacional mais tradicionais, incluindo bibliotecas de sistemas HTTP e arquivos.</p>
@@ -49,4 +49,3 @@ Gerenciar requisições de diferentes verbos HTTP em diferentes URLs.</p>
 3. Usando Morgan para salvar log das requests
 `npm install morgan`
 
-<img src="./node-js-api.png" />
