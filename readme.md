@@ -49,3 +49,9 @@ Gerenciar requisições de diferentes verbos HTTP em diferentes URLs.</p>
 3. Usando Morgan para salvar log das requests
 `npm install morgan`
 
+
+
+<p>Referências:</p>
+
+https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction
+
