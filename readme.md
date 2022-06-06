@@ -52,6 +52,10 @@ Gerenciar requisições de diferentes verbos HTTP em diferentes URLs.</p>
 4. Definir o corpo da requisição 
 `npm install --save body-parser`
 
+5. Db 
+`npm install --save mysql2`
+
+
 
 
 <p>Referências:</p>
