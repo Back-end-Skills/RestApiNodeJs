@@ -9,11 +9,18 @@ router.get('/', (req, res, next) => {
     })
 });
 
-//router POST
+//router insert POST
 router.post('/', (req, res, next) => {
-    res.status(200)
-    .send({
-        mensagem: 'POST produtos'
+    
+    const produto = {
+        nome: req.body.nome,
+        preco: req.body.preco
+    };
+
+    res.status(200).send({
+        mensagem: 'POST produtos',
+        produtoCriado: produto
+
     });
 
 });
@@ -35,8 +42,6 @@ router.get('/:id_produto', (req, res, next) => {
                 
         });
     }
-
-  
 });
 
 //PATCH

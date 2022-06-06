@@ -11,9 +11,14 @@ router.get('/', (req, res, next) => {
 
 //Inserir router POST
 router.post('/', (req, res, next) => {
-    res.status(200)
-    .send({
-        mensagem: 'POST Inserir Pedidos'
+    const pedido = {
+        id_produto: req.body.id_produto,
+        quantidade: req.body.quantidade
+    }
+    
+    res.status(200).send({
+        mensagem: 'POST Inserir Pedidos',
+        pedidoCriado: pedido
     });
 
 });
@@ -35,6 +40,7 @@ router.patch('/', (req, res, next) => {
     res.status(200)
     .send({
         mensagem: 'PATCH pedidos'
+        
     });
 
 });

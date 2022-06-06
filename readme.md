@@ -49,6 +49,9 @@ Gerenciar requisições de diferentes verbos HTTP em diferentes URLs.</p>
 3. Usando Morgan para salvar log das requests
 `npm install morgan`
 
+4. Definir o corpo da requisição 
+`npm install --save body-parser`
+
 
 
 <p>Referências:</p>
